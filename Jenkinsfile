@@ -6,7 +6,7 @@ pipeline{
     }
     environment {
         SCANNER_HOME=tool 'sonar-check'
-        GIT_REPO_NAME = 'Tetris-manifest'
+        GIT_REPO_NAME = 'Tetris-menifest'
         GIT_USER_NAME = 'Sibapanda22'
         NEW_IMAGE_NAME = 'sibapanda22/tetrisv2:latest'
     }
